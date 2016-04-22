@@ -1,5 +1,6 @@
 #!/bin/sh
 
+
 bp1=`/bin/cat /sys/bus/i2c/devices/6-0026/bypass0`
 bp2=`/bin/cat /sys/bus/i2c/devices/6-0022/bypass0`
 ovpnstatus=`/sbin/service openvpn status`
